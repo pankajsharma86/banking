@@ -2,13 +2,14 @@
 	session_start();
 	
 class displayalldetails{
+		/*
 		public $name;
 		public $address;
 		public $phone;
 		public $number;
 		public $type;
 		public $balance;
-		
+		*/
 		
 	function displaydetails(){
 		if($_SESSION['balance'] == ''){
